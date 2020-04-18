@@ -20,4 +20,5 @@ const myProgram = integer => {
   return output;
 }
 // use the function
-console.log(myProgram(15));
+console.log(myProgram(100));
+console.log(myProgram(30));
