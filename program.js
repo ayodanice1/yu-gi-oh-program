@@ -12,7 +12,9 @@ const myProgram = integer => {
         output.push('yu-oh');
       } else output.push('yu');
     } else if (i % 3 == 0) {
-      output.push('gi');
+        if (i % 5== 0) {
+            output.push('gi-oh');
+        } else output.push('gi');
     } else if (i % 5 == 0) {
       output.push('oh');
     } else output.push(i);
